@@ -1,7 +1,7 @@
 Welcome to the sktime workshop at PyData Global 2024
 ====================================================
 
-![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?style=flat&logo=YouTube&logoColor=white) Recording of the workshop on [YouTube](https://www.youtube.com/watch?v=VwhevNkxjYw)
+![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?style=for-the-badge&logo=YouTube&logoColor=white) Recording of the workshop on [YouTube](https://www.youtube.com/watch?v=VwhevNkxjYw)
 
 This tutorial is about [skchange] and sktime [sktime].
 
