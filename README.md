@@ -1,5 +1,7 @@
-Welcome to the sktime workshop at pydata global 2024
+Welcome to the sktime workshop at PyData Global 2024
 ====================================================
+
+:movie_camera: Recording of the workshop on [YouTube](https://www.youtube.com/watch?v=VwhevNkxjYw)
 
 This tutorial is about [skchange] and sktime [sktime].
 
