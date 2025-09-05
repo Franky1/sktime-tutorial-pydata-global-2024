@@ -1,19 +1,14 @@
-Welcome to the sktime workshop at PyData Global 2024
-====================================================
+# Welcome to the sktime workshop at PyData Global 2024
 
-![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?style=flat&logo=YouTube&logoColor=white)
+[![!youtube](https://img.shields.io/static/v1?logo=youtube&label=YouTube&message=Workshop&color=red)](https://www.youtube.com/watch?v=VwhevNkxjYw)
 
-Recording of the workshop on [YouTube](https://www.youtube.com/watch?v=VwhevNkxjYw)
+This tutorial is about [skchange] and [sktime].
 
----
-
-This tutorial is about [skchange] and sktime [sktime].
-
-`skchange` is a python compatible framework library for detecting anomalies, changepoints in time series, and segmentation.
-
-`skchange` is based on, and extends, `sktime`, the most widely used scikit-learn compatible framework library for learning with time series.
+- `skchange` is a python compatible framework library for detecting anomalies, changepoints in time series, and segmentation.
+- `skchange` is based on, and extends, `sktime`, the most widely used scikit-learn compatible framework library for learning with time series.
 
 Both packages are maintained under permissive license, easily extensible by anyone, and interoperable with the python data science stack.
+
 This workshop gives a hands-on introduction to the new joint detection interface developed in skchange and sktime, for detecting point anomalies, changepoints, and segment anomalies.
 
 [skchange]: https://skchange.readthedocs.io/en/latest/
@@ -27,9 +22,9 @@ In the tutorial, we will move through notebooks section by section.
 
 You have different options how to run the tutorial notebooks:
 
-* Run the notebooks in the cloud on [Binder] - for this you don't have to install anything!
-* Run the notebooks on your machine. [Clone] this repository, get [conda], install the required packages (`sktime`, `seaborn`, `jupyter`) in an environment, and open the notebooks with that environment. For detail instructions, see below. For troubleshooting, see sktime's more detailed [installation instructions].
-* or, use python venv, and/or an editable install of this repo as a package. Instructions below.
+- Run the notebooks in the cloud on [Binder] - for this you don't have to install anything!
+- Run the notebooks on your machine. [Clone] this repository, get [conda], install the required packages (`sktime`, `seaborn`, `jupyter`) in an environment, and open the notebooks with that environment. For detail instructions, see below. For troubleshooting, see sktime's more detailed [installation instructions].
+- or, use python venv, and/or an editable install of this repo as a package. Instructions below.
 
 [Binder]: https://mybinder.org/v2/gh/sktime/sktime-tutorial-pydata-global-2024/main?filepath=notebooks
 [clone]: https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository
@@ -53,7 +48,6 @@ Both `skchange` and `sktime` are developed by open communities, with aims of eco
 
 We invite anyone to get involved as a developer, user, supporter (or any combination of these).
 
-
 ## :movie_camera: Other Tutorials
 
 - [EuroSciPy 2024 - Hierarchical, global forecasting, foundation models, extensions and marketplace](https://github.com/sktime/sktime-workshop-euroscipy2024)
@@ -76,7 +70,6 @@ We invite anyone to get involved as a developer, user, supporter (or any combina
 
 - [Pydata Global 2022 - Feature extraction, Pipelines, Tuning](https://github.com/sktime/sktime-tutorial-pydata-global-2022)
 
-
 ## :wave: How to contribute
 
 If you're interested in contributing to `skchange` or `sktime`,
@@ -88,8 +81,8 @@ Any contributions are welcome, not just code!
 
 To run the notebooks locally, you will need:
 
-* a local repository clone
-* a python environment with required packages installed
+- a local repository clone
+- a python environment with required packages installed
 
 ### Cloning the repository
 
@@ -113,8 +106,8 @@ To clone the repository locally:
 1. Create a python virtual environment:
 `python -m venv skchange_pydata`
 2. Activate your environment:
- - `source skchange_pydata/bin/activate` for Linux
- - skchange_pydata/Scripts/activate` for Windows
+`source skchange_pydata/bin/activate` for Linux
+`skchange_pydata/Scripts/activate` for Windows
 3. Install the requirements:
 `pip install -r requirements`
 4. If using jupyter: make the environment available in jupyter:
