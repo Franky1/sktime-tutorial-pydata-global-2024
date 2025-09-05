@@ -95,22 +95,52 @@ git clone https://github.com/sktime/sktime-tutorial-pydata-global-2024
 ### Using conda env
 
 1. Create a python virtual environment:
-    `conda create -y -n skchange_pydata python=3.11`
+
+    ```shell
+    conda create -y -n skchange_pydata python=3.11
+    ```
+
 2. Install required packages:
-    `conda install -y -n skchange_pydata pip skchange sktime seaborn jupyter pmdarima statsmodels`
+
+    ```shell
+    conda install -y -n skchange_pydata pip skchange sktime seaborn jupyter pmdarima statsmodels
+    ```
+
 3. Activate your environment:
-    `conda activate skchange_pydata`
+
+    ```shell
+    conda activate skchange_pydata
+    ```
+
 4. If using jupyter: make the environment available in jupyter:
-    `python -m ipykernel install --user --name=skchange_pydata`
+
+    ```shell
+    python -m ipykernel install --user --name=skchange_pydata
+    ```
 
 ### Using python venv
 
 1. Create a python virtual environment:
-    `python -m venv skchange_pydata`
+
+    ```shell
+    python -m venv skchange_pydata
+    ```
+
 2. Activate your environment:
-    `source skchange_pydata/bin/activate` for Linux
-    `skchange_pydata/Scripts/activate` for Windows
+
+    ```shell
+    source skchange_pydata/bin/activate  # for Linux
+    skchange_pydata/Scripts/activate  # for Windows
+    ```
+
 3. Install the requirements:
-    `pip install -r requirements`
+
+    ```shell
+    pip install -r requirements.txt
+    ```
+
 4. If using jupyter: make the environment available in jupyter:
-    `python -m ipykernel install --user --name=skchange_pydata`
+
+    ```shell
+    python -m ipykernel install --user --name=skchange_pydata
+    ```
